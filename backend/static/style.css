@@ -1,0 +1,51 @@
+/* Estilo global para el body */
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente del texto a Arial, si no está disponible usa sans-serif */
+    background-color: #f4f4f9; /* Color de fondo suave para el cuerpo de la página */
+    margin: 0; /* Elimina el margen por defecto del body */
+    padding: 20px; /* Añade un padding (espaciado) de 20px alrededor del contenido */
+}
+
+/* Estilo para los encabezados h1 */
+h1 {
+    color: #333; /* Establece el color del texto del h1 a un gris oscuro */
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #4CAF50; /* Fondo verde para los botones */
+    color: white; /* Color del texto en blanco */
+    padding: 10px 15px; /* Relleno interno del botón, 10px arriba y abajo, 15px a los lados */
+    border: none; /* Elimina el borde por defecto */
+    cursor: pointer; /* Muestra un puntero de mano cuando el mouse pasa sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin-top: 10px; /* Espaciado superior de 10px para separar del contenido superior */
+}
+
+/* Estilo para el botón cuando el mouse pasa sobre él */
+button:hover {
+    background-color: #45a049; /* Cambia el fondo a un verde ligeramente más oscuro al pasar el mouse */
+}
+
+/* Estilo para los inputs, textareas y selects */
+input, textarea, select {
+    width: 100%; /* Hace que todos los campos de entrada, textarea y select ocupen todo el ancho disponible */
+    padding: 10px; /* Añade relleno dentro de los campos para que el texto no esté pegado al borde */
+    margin: 10px 0; /* Espaciado de 10px arriba y abajo entre los campos */
+    border: 1px solid #ddd; /* Establece un borde gris claro alrededor de los campos */
+    box-sizing: border-box; /* Asegura que el padding y border no afecten al tamaño total del elemento */
+}
+
+/* Estilo para la lista de tareas */
+#taskList {
+    margin-top: 20px; /* Añade un margen superior de 20px para separar la lista de tareas del contenido anterior */
+}
+
+/* Estilo para el formulario */
+form {
+    max-width: 500px; /* Limita el ancho máximo del formulario a 500px */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 20px; /* Añade un relleno interno de 20px */
+    background-color: white; /* Establece el color de fondo a blanco para el formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil alrededor del formulario para darle un efecto flotante */
+}
